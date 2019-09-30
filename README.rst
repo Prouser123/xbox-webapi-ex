@@ -2,16 +2,21 @@
 Xbox-WebAPI-EX
 ===========
 
-.. image:: https://pypip.in/version/xbox-webapi-ex/badge.svg
+.. image:: https://img.shields.io/pypi/v/xbox-webapi-ex.svg
     :target: https://pypi.python.org/pypi/xbox-webapi-ex/
     :alt: Latest Version
 
-.. image:: https://readthedocs.org/projects/xbox-webapi-ex/badge/?version=latest
+.. image:: https://img.shields.io/codecov/c/gh/prouser123/xbox-webapi-ex.svg
+    :target: https://codecov.io/gh/Prouser123/xbox-webapi-ex
+    :alt: Code Coverage
+
+.. image:: https://img.shields.io/travis/com/prouser123/xbox-webapi-ex.svg
+    :target: https://travis-ci.com/Prouser123/xbox-webapi-ex
+    :alt: Build Status
+
+.. image:: https://img.shields.io/readthedocs/xbox-webapi-ex.svg
     :target: http://xbox-webapi-ex.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
-
-.. image:: https://travis-ci.com/Prouser123/xbox-webapi-python.svg?branch=master
-    :target: https://travis-ci.com/Prouser123/xbox-webapi-python
 
 Xbox-WebAPI is a python library to authenticate with Xbox Live via your Microsoft Account and provides Xbox related Web-API.
 
