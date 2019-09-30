@@ -5,14 +5,14 @@ from setuptools import setup
 
 
 setup(
-    name="xbox-webapi",
-    version="1.1.7",
+    name="xbox-webapi-ex",
+    version="1.1.8",
     author="OpenXbox",
     description="A library to authenticate with Windows Live/Xbox Live and use their API",
     long_description=open('README.rst').read() + '\n\n' + open('HISTORY.rst').read(),
     license="GPL",
     keywords="xbox one live api",
-    url="https://github.com/OpenXbox/xbox-webapi-python",
+    url="https://github.com/Prouser123/xbox-webapi-python",
     packages=[
         'xbox.webapi',
         'xbox.webapi.common',
