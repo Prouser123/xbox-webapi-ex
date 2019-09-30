@@ -1,13 +1,13 @@
 ===========
-Xbox-WebAPI
+Xbox-WebAPI-EX
 ===========
 
 .. image:: https://pypip.in/version/xbox-webapi-ex/badge.svg
     :target: https://pypi.python.org/pypi/xbox-webapi-ex/
     :alt: Latest Version
 
-.. image:: https://readthedocs.org/projects/xbox-webapi-python/badge/?version=latest
-    :target: http://xbox-webapi-python.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/xbox-webapi-ex/badge/?version=latest
+    :target: http://xbox-webapi-ex.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
 .. image:: https://travis-ci.com/Prouser123/xbox-webapi-python.svg?branch=master
@@ -26,7 +26,7 @@ How to use
 ----------
 Install::
 
-  pip install xbox-webapi
+  pip install xbox-webapi-ex
 
 Authentication::
 
