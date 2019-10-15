@@ -18,6 +18,20 @@ class PresenceProvider(BaseProvider):
         'Accept': 'application/json'
     }
 
+    def get_presence(self, xuid, presence_level=PresenceLevel.USER):
+        """
+        Get presence for an xuid
+
+        Args:
+            xuid (str): Xbox User Id
+            presence_level (str): Filter level
+
+        Returns:
+            :class:`requests.Response`: HTTP Response
+        """
+        url = self.PRESENCE_URL + "/users/xuid(" + xuid + ")?level=" + presence_level
+        return self.client.session.get(url, headers=self.HEADERS_PRESENCE)
+
     def get_presence_batch(self, xuids, online_only=False, presence_level=PresenceLevel.USER):
         """
         Get presence for list of xuids

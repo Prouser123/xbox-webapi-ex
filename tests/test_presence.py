@@ -1,6 +1,17 @@
 from betamax import Betamax
 
 
+def test_presence(xbl_client):
+    with Betamax(xbl_client.session).use_cassette('presence'):
+        ret = xbl_client.presence.get_presence('2669321029139235')
+
+        assert ret.status_code == 200
+        data = ret.json()
+
+        assert data['xuid'] == '2669321029139235'
+        assert data['state'] == 'Offline'
+
+
 def test_presence_batch(xbl_client):
     with Betamax(xbl_client.session).use_cassette('presence_batch'):
         ret = xbl_client.presence.get_presence_batch(
