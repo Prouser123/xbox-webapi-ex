@@ -8,6 +8,7 @@ setup(
     name="xbox-webapi-ex",
     version="1.1.9",
     author="OpenXbox",
+    author_email="xbox-webapi-ex@prouser123.me",
     description="A library to authenticate with Windows Live/Xbox Live and use their API",
     long_description=open('README.rst').read() + '\n\n' + open('HISTORY.rst').read(),
     license="GPL",

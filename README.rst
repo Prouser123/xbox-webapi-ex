@@ -1,6 +1,6 @@
-===========
+==============
 Xbox-WebAPI-EX
-===========
+==============
 
 .. image:: https://img.shields.io/pypi/v/xbox-webapi-ex.svg
     :target: https://pypi.python.org/pypi/xbox-webapi-ex/

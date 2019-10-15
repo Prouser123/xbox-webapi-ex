@@ -13,6 +13,8 @@ install:
   - pip install -e .[dev]
   - python setup.py develop
 script: tox
+before_deploy:
+  - python setup.py check -r -s
 deploy:
   provider: pypi
   distributions: sdist bdist_wheel
